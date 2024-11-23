@@ -6,11 +6,11 @@
 /*   By: azmakhlo <azmakhlo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/23 09:59:43 by azmakhlo          #+#    #+#             */
-/*   Updated: 2024/11/23 18:03:18 by azmakhlo         ###   ########.fr       */
+/*   Updated: 2024/11/23 18:40:33 by azmakhlo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libftprintf.h"
 
 void	ft_puttstr(char *s, int *count)
 {

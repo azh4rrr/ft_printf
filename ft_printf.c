@@ -6,11 +6,11 @@
 /*   By: azmakhlo <azmakhlo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/22 18:36:05 by azmakhlo          #+#    #+#             */
-/*   Updated: 2024/11/23 18:09:01 by azmakhlo         ###   ########.fr       */
+/*   Updated: 2024/11/23 18:40:05 by azmakhlo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libftprintf.h"
 
 int	check(char l, va_list r, int *count)
 {
@@ -66,10 +66,4 @@ int	ft_printf(const char *w, ...)
 	}
 	va_end(r);
 	return (count);
-}
-
-int main()
-{
-	ft_printf("%s", "Hello, World!");
-	return (0);
 }

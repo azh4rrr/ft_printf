@@ -6,11 +6,11 @@
 /*   By: azmakhlo <azmakhlo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/23 17:34:52 by azmakhlo          #+#    #+#             */
-/*   Updated: 2024/11/23 18:03:25 by azmakhlo         ###   ########.fr       */
+/*   Updated: 2024/11/23 18:40:28 by azmakhlo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libftprintf.h"
 
 void	ft_putuhex(unsigned int c, int *count)
 {
